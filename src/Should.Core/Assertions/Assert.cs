@@ -936,5 +936,10 @@ namespace Should.Core.Assertions
             if (!condition)
                 throw new TrueException(userMessage);
         }
+
+        public static void SequencesAreEqual<T>(IEnumerable<T> sequence1, IEnumerable<T> sequence2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

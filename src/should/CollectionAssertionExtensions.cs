@@ -88,5 +88,31 @@ namespace Should
         {
             Assert.DoesNotContain(expected, collection, comparer);
         }
+
+        /// <summary>
+        /// Verifies that a collection's objects match those of a given collection.
+        /// </summary>
+        /// <typeparam name="T">The type of the collections to be compared</typeparam>
+        /// <param name="collection">The collection to be inspected</param>
+        /// <param name="collection2">The collection to be compared against</param>
+        public static void ShouldEqualSequence<T>(this IEnumerable<T> collection, 
+                                                  IEnumerable<T> collection2)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Verifies that a collection's objects match those of a given collection, using a comparer.
+        /// </summary>
+        /// <typeparam name="T">The type of the collections to be compared</typeparam>
+        /// <param name="collection">The collection to be inspected</param>
+        /// <param name="collection2">The collection to be compared against</param>
+        /// <param name="comparer">The comparer used to equate objects in the two collection</param>
+        public static void ShouldEqualSequence<T>(this IEnumerable<T> collection, 
+                                                  IEnumerable<T> collection2,
+                                                  IEqualityComparer<T> comparer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

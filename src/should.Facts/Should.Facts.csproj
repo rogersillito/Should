@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\SequencesAreEqualTests.cs" />
     <Compile Include="DateAssertionExtension_Facts.cs" />
     <Compile Include="ActionAssertionExtension_Facts.cs" />
     <Compile Include="Core\AssertActualExpectedExceptionTests.cs" />
@@ -79,7 +80,6 @@
     <Compile Include="Core\LessThanTests.cs" />
     <Compile Include="EqualTests.cs" />
     <Compile Include="ObjectAssertionExtension_Facts.cs" />
-    <Compile Include="StringAssertionExtensions_Facts.cs" />
     <Compile Include="Core\FalseTests.cs" />
     <Compile Include="Core\InRangeTests.cs" />
     <Compile Include="Core\IsAssignableFromTests.cs" />

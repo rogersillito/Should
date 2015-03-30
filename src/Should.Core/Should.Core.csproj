@@ -84,6 +84,7 @@
     <Compile Include="Exceptions\NullException.cs" />
     <Compile Include="Exceptions\ParameterCountMismatchException.cs" />
     <Compile Include="Exceptions\SameException.cs" />
+    <Compile Include="Exceptions\SequencesAreEqualException.cs" />
     <Compile Include="Exceptions\SingleException.cs" />
     <Compile Include="Exceptions\StartsWithException.cs" />
     <Compile Include="Exceptions\ThrowsException.cs" />
